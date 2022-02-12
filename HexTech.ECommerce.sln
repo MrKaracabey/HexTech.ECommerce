@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Base", "src\Buildi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.AzureServiceBus", "src\BuildingBlocks\EventBus\EventBus.AzureServiceBus\EventBus.AzureServiceBus.csproj", "{BA50DA5F-EFB1-48D5-884B-F2A90D567EAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.RabbitMQ", "src\BuildingBlocks\EventBus\EventBus.RabbitMQ\EventBus.RabbitMQ.csproj", "{6078C4CF-6C34-4402-B01E-FA546C09B50B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,7 @@ Global
 		{FB53A4F8-910D-47A9-85EF-A566031A8C01} = {528254D5-5E9F-47BC-8028-C6A50376BDAB}
 		{44098505-BA81-4D1F-ABCD-688D050422E0} = {FB53A4F8-910D-47A9-85EF-A566031A8C01}
 		{BA50DA5F-EFB1-48D5-884B-F2A90D567EAA} = {FB53A4F8-910D-47A9-85EF-A566031A8C01}
+		{6078C4CF-6C34-4402-B01E-FA546C09B50B} = {FB53A4F8-910D-47A9-85EF-A566031A8C01}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{44098505-BA81-4D1F-ABCD-688D050422E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +33,9 @@ Global
 		{BA50DA5F-EFB1-48D5-884B-F2A90D567EAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA50DA5F-EFB1-48D5-884B-F2A90D567EAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA50DA5F-EFB1-48D5-884B-F2A90D567EAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6078C4CF-6C34-4402-B01E-FA546C09B50B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6078C4CF-6C34-4402-B01E-FA546C09B50B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6078C4CF-6C34-4402-B01E-FA546C09B50B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6078C4CF-6C34-4402-B01E-FA546C09B50B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
