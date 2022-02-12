@@ -1,9 +1,4 @@
-using System.Configuration;
-using IdentityService.Api.Application.Services;
-using IdentityService.Api.Extensions.Registirations;
-
 var builder = WebApplication.CreateBuilder(args);
-
 
 // Add services to the container.
 
@@ -12,7 +7,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<IIdentityService, IdentityService.Api.Application.Services.IdentityService>();
+// Todo : Will be Tested Gateway Consul Modules
 
 var app = builder.Build();
 

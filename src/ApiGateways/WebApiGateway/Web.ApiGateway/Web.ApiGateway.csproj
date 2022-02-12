@@ -7,11 +7,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Consul" Version="1.6.10.4" />
-        <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="5.4.0" />
-        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.2" />
+        <PackageReference Include="Ocelot" Version="18.0.0" />
+        <PackageReference Include="Ocelot.Provider.Consul" Version="18.0.0" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
-        <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.4.0" />
     </ItemGroup>
 
     <ItemGroup>
